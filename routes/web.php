@@ -18,5 +18,6 @@ Route::get('/', function () {
     return "I love You";
 
 });
-Route::get('/hello', [HelloController::class, 'index']);
+Route::get('/home', [HelloController::class, 'index']);
 Route::get('/page2', [HelloController::class, 'page2']);
+Route::get('/page3', [HelloController::class, 'page3']);
