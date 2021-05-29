@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "I love You";
+    return "I love You TO";
 
 });
 Route::get('/home', [HelloController::class, 'index']);
